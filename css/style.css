@@ -312,8 +312,13 @@ header {
 .my-services {
 	background-color: var(--clr-dark);
 	background-image: url(../img/services-bg1.jpg);
-	background-size: cover;
-    background-blend-mode: overlay;
+	background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 4em 0;
+        padding: 2em 0;
+        background-blend-mode: overlay;
 	color: var(--clr-light);
 	text-align: center;	
 }
