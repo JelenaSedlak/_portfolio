@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Jelena Sedlak Portfolio</title>
+		<link rel="shortcut icon" href="img/code.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.css">
+		
+		
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+	<button onclick="topFunction()" id="btn_up" title="Go to top"><i class="fas fa-arrow-up fa-sm"></i></button>
+	<header>
+		<div class="logo">
+			<img src="img/devjelena-logo1.png" alt="Jelena Sedlak logo" />			
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav"> 
+			<ul class="nav_list">
+				<li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+				<li class="nav_item"><a href="#services" class="nav_link">Meine Leistungen</a></li>
+				<li class="nav_item"><a href="#about" class="nav_link">&Uuml;ber mich</a></li>
+				<li class="nav_item"><a href="#work" class="nav_link">Meine Arbeit</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Introduction -->
+	<section class="intro" id="home">
+		<h2 class="section_title section_title-intro">
+			Hallo, Ich bin <strong class="italic">Jelena Sedlak</strong>
+		</h2>
+		<p class="section_subtitle section_subtitle-intro">front-end developer</p>
+		<img src="img/dev-jelena-01.png" alt="Jelena Sedlak profile picture" class="intro_img"/>
+	</section>
+		
+	<!-- My services -->
+	<section class="my-services" id="services">
+		<h2 class="section_title section_title-services italic">Was Ich mache</h2>
+		<div class="services">
+			<div class="service">			
+				<h3>Website Design</h3>
+				<p>Erstellen der Websites, die Benutzerfreundlichkeit und Einfachheit garantiert.</p>
+			</div> <!-- service -->
+			<div class="service">								
+				<h3>Responsive Webdesign</h3>
+				<p>Die Gr&ouml;&szlig;e der Website wird unabh&auml;ngig von der Bildschirmgr&ouml;&szlig;e oder dem Ger&auml;t ge&auml;ndert.</p>
+			</div> <!-- service -->
+			<div class="service">
+				<h3>WordPress</h3>
+				<p>Erstellen und Aktualisieren von Websites in WordPress CMS.</p>
+			</div> <!-- service -->		
+		</div>  <!-- services -->
+		
+		<a href="#work" class="btn">Meine Arbeit</a>
+	</section>
+	
+	<!-- About me -->
+	<section class="about-me" id="about">
+		<h2 class="section_title section_title-about italic">&Uuml;ber mich</h2>
+		<p class="section_subtitle section_subtitle-about">Designer und Developer</p>
+		
+		<div class="about-me_body">
+			<p>Ich habe gute Kenntnisse in HTML, CSS und JavaScript und gute Kenntnisse in Computersoftwarepaketen (Frameworks und Tools), die in der heutigen Technologie verwendet werden.</p>
+			<p>Pers&ouml;nlich bin ich hochmotiviert, ergebnisorientiert, lerne schnell und habe die Motivation, meine F&auml;higkeiten st&auml;ndig zu verbessern.</p>
+			<p>Dar&uuml;ber hinaus kann ich mich an jede Art von Teamumgebung anpassen. Ich bin teamorientiert und stimme anderen zu, wenn ich in einer Gruppe arbeite. Ich kann auch selbst&auml;ndig arbeiten und mich an Zeitpl&auml;ne und Fristen halten.</p>
+		</div>
+		
+		<img src="img/dev-jelena-02.png" alt="Jelena Sedlak profile picture" class="about-me_img"/>
+	</section>
+	
+	<!-- My work -->
+	<section class="my-work" id="work">
+		<h2 class="section_title section_title-work italic">Meine Arbeit</h2>
+		<p class="section_subtitle section_subtitle-work"></p>
+		
+		<div class="portfolio">
+			<!-- Portfolio item 01 -->
+			<a href="https://www.mfd-diagnostics.com/de/" class="portfolio_item" target="_blank">
+				<img src="img/mfd-diagnostics.png" alt="" class="portfolio_img"/>
+			</a>
+			
+			<!-- Portfolio item 02-->
+			<a href="https://www.hbisserbia.rs/" class="portfolio_item" target="_blank">
+				<img src="img/hbis-group-serbia.png" alt="" class="portfolio_img"/>
+			</a>
+		</div>
+	</section>	
+	
+	<!-- Footer -->
+	<footer class="footer">
+		<!-- <a href="mailto:sedlakjelena.24@gmail.com" class="footer-link">sedlakjelena.24@gmail.com</a> -->
+		<p>&copy;2020 Copyright Jelena Sedlak</p>
+		<ul class="social-list">
+			<li class="social-list_item">
+				<a href="mailto:sedlakjelena.24@gmail.com" class="social-list_link"><i class="fas fa-at fa-lg"></i></a>
+			</li>
+			<li class="social-list_item">
+				<a href="https://join.skype.com/invite/cgdTsIgGlS66" class="social-list_link" target="_blank"><i class="fab fa-skype fa-lg"></i></a></li>
+			<li class="social-list_item">
+				<a href="https://www.xing.com/profile/Jelena_Sedlak/cv" class="social-list_link" target="_blank"><i class="fab fa-xing fa-lg"></i></a>
+			</li>
+		</ul>
+	</footer>
+		
+	<script src="js/index.js"></script>
+	
+	</body>
+</html>
