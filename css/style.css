@@ -366,7 +366,7 @@ header {
 	margin: 0 auto;
 }
 
-.about-me_img {
+/*.about-me_img {
 	box-shadow: var(--bs);
 }
 
@@ -402,7 +402,7 @@ header {
 		position: relative;
 		z-index: 2;
 	}
-} 
+}*/ 
 
 /* My work */
 
